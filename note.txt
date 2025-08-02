@@ -1,0 +1,2 @@
+Hello
+This is an additional note for today's git practice.
