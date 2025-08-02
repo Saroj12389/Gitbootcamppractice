@@ -1,2 +1,11 @@
+Morning Git Practice Note:
+Today I practiced basic git commands:
+- git init
+- git status
+- git add
+- git commit
+- git log
+Reviewed how to check repository status and commit changes.
+
 Line 1
 Line 2
