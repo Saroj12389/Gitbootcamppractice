@@ -6,7 +6,7 @@
     <title>Time Based Background (User Input)</title>
     <style>
         body {
-            background-image: url(Afternoon.jpg);
+            background-image: url(/images/Afternoon.jpg);
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -39,11 +39,11 @@
             let backgroundImage = '';
 
             if (hour >= 6 && hour < 12) {
-                backgroundImage = 'GoodMorning.jpg'; // Replace with your morning image URL
+                backgroundImage = '/images/GoodMorning.jpg'; // Replace with your morning image URL
             } else if (hour >= 12 && hour < 19) {
-                backgroundImage = 'Evening.jpg'; // Replace with your evening image URL
+                backgroundImage = '/images/Evening.jpg'; // Replace with your evening image URL
             } else {
-                backgroundImage = 'Night.jpg'; // Replace with your night image URL
+                backgroundImage = '/images/Night.jpg'; // Replace with your night image URL
             }
 
             document.body.style.backgroundImage = `url('${backgroundImage}')`;
